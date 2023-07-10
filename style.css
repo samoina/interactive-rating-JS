@@ -52,6 +52,11 @@ select {
 }
 
 .main__request {
+	display: none;
+}
+
+.main__request,
+.main__thankyou {
 	background-color: var(--dark-blue);
 	border-radius: 1rem;
 	padding: 2rem;
@@ -89,5 +94,14 @@ select {
 }
 
 .main__thankyou {
-	display: none;
+	text-align: center;
+}
+
+.main__thankyou--response {
+	color: var(--orange);
+	background-color: hsl(213, 19%, 15%);
+	padding: 0.5rem;
+	border-radius: 2rem;
+	text-align: center;
+	margin: 1rem;
 }
