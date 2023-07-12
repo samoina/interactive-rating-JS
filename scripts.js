@@ -19,6 +19,8 @@ const getRatingValue = (ev) => {
 
 		target.style.backgroundColor = 'green';
 		target.style.color = 'white';
+
+		activeList = target;
 	}
 };
 
