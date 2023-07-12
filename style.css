@@ -52,6 +52,10 @@ select {
 }
 
 .main__request {
+	/* display: none; */
+}
+
+.main__thankyou {
 	display: none;
 }
 
@@ -84,6 +88,15 @@ select {
 	text-align: center;
 }
 
+.main__rating:hover > li {
+	background-color: var(--medium-grey);
+}
+
+.main__rating:hover > li:hover {
+	background-color: var(--orange);
+	cursor: pointer;
+}
+
 .main__submit {
 	background-color: var(--orange);
 	border: none;
@@ -91,6 +104,12 @@ select {
 	width: 100%;
 	padding: 0.8rem;
 	border-radius: 2rem;
+}
+
+.main__submit:hover {
+	background-color: var(--white);
+	color: var(--orange);
+	cursor: pointer;
 }
 
 .main__thankyou {
@@ -104,4 +123,9 @@ select {
 	border-radius: 2rem;
 	text-align: center;
 	margin: 1rem;
+}
+
+.main__para {
+	margin: 1rem;
+	color: var(--light-grey);
 }
